@@ -1,1 +1,1 @@
-# varsity.github.io
+# antonhuggard.github.io/varsity
