@@ -56,9 +56,9 @@ const footer =
 `
 <div id = "pick_your_pipe">
     <!-- Icons from Freepik Content (https://www.flaticon.com/) -->
-    <img src = "resources/fb-icon.svg" onclick="window.location.href= 'https\:\/\/www.facebook.com/varsitytoastmastersuoa/' ">
-    <img src = "resources/in-icon.svg" onclick="window.location.href= 'https\:\/\/www.instagram.com/varsitytoastmastersnz/' ">
-    <img src = "resources/yt-icon.svg" onclick="window.location.href=  'https\:\/\/www.youtube.com/watch?v=dQw4w9WgXcQ' ">
+    <img src = "resources/fb-icon-dark.svg" onclick="window.location.href= 'https\:\/\/www.facebook.com/varsitytoastmastersuoa/' ">
+    <img src = "resources/ig-icon-dark.svg" onclick="window.location.href= 'https\:\/\/www.instagram.com/varsitytoastmastersnz/' ">
+    <img src = "resources/yt-icon-light.svg" onclick="window.location.href=  'https\:\/\/www.youtube.com/watch?v=dQw4w9WgXcQ' ">
 </div>
 <p>&copy Varsity Toastmasters ${curr_year}</p>
 `;
