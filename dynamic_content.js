@@ -1,4 +1,9 @@
-const current_meeting_location = 'Online';
+const current_meeting_location = "Online, <a href='https://auckland.zoom.us/j/893139797'>using Zoom</a>";
+
+function include_location() {
+    document.getElementById("about_meeting_location").innerHTML = current_meeting_location;
+}
+
 
 const header =
 `
@@ -27,7 +32,7 @@ const header =
     <a href='meetings.html'>Meetings</a>
     <a href='membership.html'>Membership</a>
     <a href='rsrcs.html' id = 'rescources_thing'>Resources</a>
-    <a href='#'>Other</a>
+    <a href='other.html'>Other</a>
 </div>
 `;
 document.getElementsByTagName('header')[0].innerHTML = header;
