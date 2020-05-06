@@ -13,7 +13,7 @@ const header =
     <a href='meetings.html'>MEETINGS</a>
     <a href='membership.html'>MEMBERSHIP</a>
     <a href='rsrcs.html'>RESOURCES</a>
-    <a href='#'>OTHER</a>
+    <a href='other.html'>OTHER</a>
 </div>
 <div class = "top">
     <img src = "resources/tm-logo.jpg">
