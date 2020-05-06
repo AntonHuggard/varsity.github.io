@@ -3,17 +3,17 @@ const current_meeting_location = 'Online';
 const header =
 `
 <div id = "mobile_nav">
-    <button onclick='show_menu()' class='menu_btn'>&#8801;</button>
+    <img onclick='show_menu()' class='menu_btn' src ='resources/hamburger.png'>
     <h1>V A R S I T Y</h1>
 </div>
 <div id = "dropdown_menu" class = "dropdown_content">
-    <a href='index.html'>Home</a>
-    <a href='about.html'>About</a>
-    <a href='contact.html'>Contact</a>
-    <a href='meetings.html'>Meetings</a>
-    <a href='membership.html'>Membership</a>
-    <a href='#'>Resources</a>
-    <a href='#'>Team</a>
+    <a href='index.html'>HOME</a>
+    <a href='about.html'>ABOUT</a>
+    <a href='contact.html'>CONTACT</a>
+    <a href='meetings.html'>MEETINGS</a>
+    <a href='membership.html'>MEMBERSHIP</a>
+    <a href='rsrcs.html'>RESOURCES</a>
+    <a href='#'>OTHER</a>
 </div>
 <div class = "top">
     <img src = "resources/tm-logo.jpg">
@@ -26,8 +26,8 @@ const header =
     <a href='contact.html'>Contact</a>
     <a href='meetings.html'>Meetings</a>
     <a href='membership.html'>Membership</a>
-    <a href='#'>Resources</a>
-    <a href='#'>Team</a>
+    <a href='rsrcs.html' id = 'rescources_thing'>Resources</a>
+    <a href='#'>Other</a>
 </div>
 `;
 document.getElementsByTagName('header')[0].innerHTML = header;
@@ -35,14 +35,13 @@ document.getElementsByTagName('header')[0].innerHTML = header;
 const sider =
 `
 <h2>University of Auckland Toastmasters Club</h2>
-<p> fast & loose </p>
 <hr>
 <h2>WHERE?</h2>
 <p>${current_meeting_location} <br> Wednesdays, 6 - 8pm </p>
 <hr>
 <h2>Disclaimer</h2>
 <p>
-    The information on this website is for the sole use of Toastmasters' members.It is not to be used for solicitation and distribution of non-Toastmasters material or information. All rights reserved. Toastmasters International, the Toastmasters International logo and all other Toastmasters International trademarks and copyrights are the sole property of Toastmasters International and may be used only by permission.
+    The information on this website is for the sole use of Toastmasters' members. It is not to be used for solicitation and distribution of non-Toastmasters material or information. All rights reserved. Toastmasters International, the Toastmasters International logo and all other Toastmasters International trademarks and copyrights are the sole property of Toastmasters International and may be used only by permission.
 </p>
 `;
 document.getElementById('side').innerHTML = sider;
