@@ -1,7 +1,11 @@
 const current_meeting_location = "Online, <a href='https://auckland.zoom.us/j/893139797'>using Zoom</a>";
+const current_cost_for_new_members = 100;
+const current_ongoing_cost = 80;
 
 function include_location() {
     document.getElementById("about_meeting_location").innerHTML = current_meeting_location;
+    document.getElementById("ongoing_cost").innerHTML = current_ongoing_cost;
+    document.getElementById("cost_for_new_members").innerHTML = current_cost_for_new_members;
 }
 
 
@@ -15,7 +19,6 @@ const header =
     <a href='index.html'>HOME</a>
     <a href='about.html'>ABOUT</a>
     <a href='contact.html'>CONTACT</a>
-    <a href='meetings.html'>MEETINGS</a>
     <a href='membership.html'>MEMBERSHIP</a>
     <a href='rsrcs.html'>RESOURCES</a>
     <a href='other.html'>OTHER</a>
@@ -29,7 +32,6 @@ const header =
     <a href='index.html'>Home</a>
     <a href='about.html'>About</a>
     <a href='contact.html'>Contact</a>
-    <a href='meetings.html'>Meetings</a>
     <a href='membership.html'>Membership</a>
     <a href='rsrcs.html' id = 'rescources_thing'>Resources</a>
     <a href='other.html'>Other</a>
@@ -56,7 +58,7 @@ const footer =
 `
 <div id = "pick_your_pipe">
     <!-- Icons from Freepik Content (https://www.flaticon.com/) -->
-    <img src = "resources/fb-icon-dark.svg" onclick="window.location.href= 'https\:\/\/www.facebook.com/varsitytoastmastersuoa/' ">
+    <img src = "resources/fb-icon-00114a.svg" onclick="window.location.href= 'https\:\/\/www.facebook.com/varsitytoastmastersuoa/' ">
     <img src = "resources/ig-icon-dark.svg" onclick="window.location.href= 'https\:\/\/www.instagram.com/varsitytoastmastersnz/' ">
     <img src = "resources/yt-icon-light.svg" onclick="window.location.href=  'https\:\/\/www.youtube.com/watch?v=dQw4w9WgXcQ' ">
 </div>

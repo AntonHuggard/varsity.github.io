@@ -72,6 +72,11 @@ header > #desktop_nav { display: none; }
 }
 .main > a:hover { background-color: rgb(136, 25, 25);}
 
+.main > .FAQ {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 #side {display: none;}
 
 footer > #pick_your_pipe {
@@ -103,7 +108,7 @@ footer > p {
     }
     header > #desktop_nav {
         display: grid;
-        grid-template-columns: repeat(7, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         background-color: rgb(92, 16, 16);
         margin-bottom: 30px;
     }
@@ -116,6 +121,17 @@ footer > p {
     }
     header > #desktop_nav > a:hover {
         background-color: rgb(136, 25, 25);
+    }
+
+    .main > .FAQ {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .main > .FAQ > p {
+        font-size: 1em;
     }
     
 }
