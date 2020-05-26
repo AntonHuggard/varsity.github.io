@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="timer.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="timer">0:00</h1>
+    <button id = 'strt_stp_btn' onclick='start_stop()'>start</button>
+    <button onclick="reset()">reset</button>
+</body>
+<script>
+
+var active = false;
+
+var myVar;
+var time_elapsed = 45000;
+
+function start() {
+    myVar = setInterval(myTimer, 1000);
+}
+
+function myTimer() {
+  time_elapsed += 1;
+  var minutes = "00";
+  var seconds = (time_elapsed % 1000) % 60;
+  if (seconds < 10) {
+      seconds = '0' + seconds;
+  }
+  var minutes = Math.floor((time_elapsed % 1000) / 60);
+  document.getElementById("timer").innerHTML = minutes+':'+seconds;
+}
+
+function stop() {
+  clearInterval(myVar);
+}
+
+
+function reset() {
+    clearInterval(myVar);
+    document.getElementById("timer").innerHTML = '0:00';
+}
+
+function start_stop() {
+    if (!active) {
+        active = true;
+        document.getElementById('strt_stp_btn').innerText = 'stop';
+        start();
+    } else {
+        active = false;
+        document.getElementById('strt_stp_btn').innerText = 'start';
+        stop();
+    }
+}
+</script>
+</html>
