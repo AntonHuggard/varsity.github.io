@@ -39,7 +39,10 @@ function stop() {
 
 
 function reset() {
-    clearInterval(myVar);
+    stop();
+    time_elapsed = 0;
+    active = false;
+    document.getElementById('strt_stp_btn').innerText = 'start';
     document.getElementById("timer").innerHTML = '0:00';
 }
 
