@@ -1,4 +1,4 @@
-const current_meeting_location = "Online, <a href='https://auckland.zoom.us/j/893139797'>using Zoom</a>";
+const current_meeting_location = "City campus, Owen G. Glen Building. Room 260-205";
 const current_cost_for_new_members = 100;
 const current_ongoing_cost = 80;
 
