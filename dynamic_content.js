@@ -1,4 +1,4 @@
-const current_meeting_location = "City campus, Owen G. Glen Building. Room 260-205";
+const current_meeting_location = "Univeristy of Auckland's city campus, room 119-G30 (on 29/07/20 and 5/08/20). This is the eastern wing of the Clock Tower (new extension)";
 const current_cost_for_new_members = 100;
 const current_ongoing_cost = 80;
 
