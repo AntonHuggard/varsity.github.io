@@ -51,6 +51,7 @@ header > #desktop_nav { display: none; }
     margin-bottom: 20px;
 }
 .news_item > .news_title { text-align: center; }
+.news_item > .content > img {max-width: 100%;}
 
 .main {
     background-color: white;
@@ -65,7 +66,7 @@ header > #desktop_nav { display: none; }
     color: white; 
     background-color: rgb(92, 16, 16); 
     padding: 20px; 
-    border-radius: 30px; 
+    /* border-radius: 30px;  */
     margin: 50px; 
     display: block;
     text-align: center;

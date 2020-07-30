@@ -3,9 +3,12 @@ const current_cost_for_new_members = 100;
 const current_ongoing_cost = 80;
 
 function include_location() {
-    document.getElementById("about_meeting_location").innerHTML = current_meeting_location;
-    document.getElementById("ongoing_cost").innerHTML = current_ongoing_cost;
-    document.getElementById("cost_for_new_members").innerHTML = current_cost_for_new_members;
+    document.getElementsByClassName("about_meeting_location").innerHTML = current_meeting_location;
+}
+
+function get_costs() {
+    document.getElementById("cost_for_new_members").innerHTML = current_cost_for_new_members.toString();
+    document.getElementById("ongoing_cost").innerHTML = current_ongoing_cost.toString();
 }
 
 function change_dir(path) {

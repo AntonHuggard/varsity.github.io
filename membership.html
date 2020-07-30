@@ -5,7 +5,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@423&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body>
+    <body onload="get_costs()">
         <header></header>
         <div id = "side"></div>
 
@@ -15,7 +15,7 @@
                 So you want to join us? Here are some quick details how you can do that and what you need to know!<br><br>
 
 <strong>The important stuff</strong><br><br>
-To join the club, new members will need to pay an initiation fee ($20) on top of the actual membership fee ($80). But don’t worry, it’s only a one-off fee so your first payment will be $120 and once you’re in the system all subsequent fees will be $80.<br><br>
+To join the club, new members will need to pay an initiation fee ($20) on top of the actual membership fee. But don’t worry, it’s only a one-off. So your first payment will be $<span id='cost_for_new_members'></span> and once you’re in the system all subsequent fees will be $<span id='ongoing_cost'></span>.<br><br>
 
 Membership lasts for one semester.<br><br>
 
