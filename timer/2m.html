@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="timer.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="timer">0:00</h1>
+    <button id = 'strt_stp_btn' onclick='start_stop()'>start</button>
+    <button onclick="reset()">reset</button>
+    <button onclick="add_time()">add time</button>
+</body>
+<script>
+
+var active = false;
+
+var myVar;
+var time_elapsed = 0; // in seconds
+
+function start() {
+    myVar = setInterval(myTimer, 1000);
+}
+
+function myTimer() {
+  time_elapsed = time_elapsed + 1;
+  var minutes = "00";
+  var seconds = time_elapsed % 60;
+  if (seconds < 10) {
+      seconds = '0' + seconds;
+  }
+  var minutes = Math.floor(time_elapsed / 60);
+  document.getElementById("timer").innerHTML = minutes+':'+seconds;
+
+  if (time_elapsed >= 60) {
+      document.body.style.backgroundColor = 'green';
+  } 
+  if (time_elapsed >= 90) {
+      document.body.style.backgroundColor = 'rgb(231, 177, 0)';
+  }
+  if (time_elapsed >= 120) {
+      document.body.style.backgroundColor = 'red';
+  }
+}
+
+function add_time() {
+    time_elapsed = time_elapsed + 10;
+}
+
+function stop() {
+  clearInterval(myVar);
+}
+
+
+function reset() {
+    stop();
+    time_elapsed = 0;
+    active = false;
+    document.getElementById('strt_stp_btn').innerText = 'start';
+    document.getElementById("timer").innerHTML = '0:00';
+    document.body.style.backgroundColor = 'black';
+}
+
+function start_stop() {
+    if (!active) {
+        active = true;
+        document.getElementById('strt_stp_btn').innerText = 'stop';
+        start();
+    } else {
+        active = false;
+        document.getElementById('strt_stp_btn').innerText = 'start';
+        stop();
+    }
+}
+</script>
+</html>
