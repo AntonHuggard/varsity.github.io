@@ -24,6 +24,7 @@ function change_dir(path) {
             <a href='${path}contact.html'>CONTACT</a>
             <a href='${path}membership.html'>MEMBERSHIP</a>
             <a href='${path}rsrcs.html'>RESOURCES</a>
+            <a href='${path}voting.html'>VOTING</a>
             <a href='${path}other.html'>OTHER</a>
         </div>
         <div class = "top">
@@ -70,6 +71,7 @@ const header =
     <a href='contact.html'>CONTACT</a>
     <a href='membership.html'>MEMBERSHIP</a>
     <a href='rsrcs.html'>RESOURCES</a>
+    <a href='voting.html'>VOTING</a>
     <a href='other.html'>OTHER</a>
 </div>
 <div class = "top">
@@ -98,6 +100,12 @@ const sider =
 <h2>Disclaimer</h2>
 <p>
     The information on this website is for the sole use of Toastmasters' members. It is not to be used for solicitation and distribution of non-Toastmasters material or information. All rights reserved. Toastmasters International, the Toastmasters International logo and all other Toastmasters International trademarks and copyrights are the sole property of Toastmasters International and may be used only by permission.
+</p>
+<hr>
+<h2>ONLINE VOTING</h2>
+<p>
+    At the end of each meeting, we decide who is voted off the island! <br><br>
+    This week's voting form is <a href='voting.html'>here!</a>
 </p>
 `;
 document.getElementById('side').innerHTML = sider;
