@@ -1,9 +1,9 @@
-const current_meeting_location = "Univeristy of Auckland's city campus, in the Eastern wing of the Clock Tower (new extension) <br> Room 119-G30 (on 29/07/20 and 5/08/20)";
+const current_meeting_location = "Univeristy of Auckland's city campus, in the Humanities building (Arts 1). <br> Room 206-215.";
 const current_cost_for_new_members = 100;
 const current_ongoing_cost = 80;
 
 function include_location() {
-    document.getElementsByClassName("about_meeting_location").innerHTML = current_meeting_location;
+    document.getElementById("about_meeting_location").innerHTML = current_meeting_location;
 }
 
 function get_costs() {
