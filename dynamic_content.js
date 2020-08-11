@@ -1,4 +1,5 @@
-const current_meeting_location = "Univeristy of Auckland's city campus, in the Humanities building (Arts 1). <br> Room 206-215.";
+const current_meeting_location = "Online, using Zoom.<br> <a href='https://auckland.zoom.us/j/893139797'>Here's our zoom link.</a><br>";
+//"Univeristy of Auckland's city campus, in the Humanities building (Arts 1). <br> Room 206-215.";
 const current_cost_for_new_members = 100;
 const current_ongoing_cost = 80;
 
