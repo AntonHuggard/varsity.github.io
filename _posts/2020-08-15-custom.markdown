@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Covid-19 Update"
+date:   2020-08-12 00:00:00 +1200
+categories: posts up_yours
+permalink: /archive/2020-August-Covid-19-Update
+---
+<style>
+  body {
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(147, 31, 31);
+    color: white;
+  }
+  .site-header > .wrapper > .site-title  {
+    color: white;
+  }
+
+</style>
+
+<div class='content-wrapper'>
+
+  <div class = "content" id="wrapper">
+    <div id="invis_box">
+      <p id="box" class="centre"> 
+          Due to new instances of community trasmission of Covid-19, Auckland is going to be back in Self-Isolation as of
+          12pm noon on Wednesday the 12th of August (today!). <br><br>
+          This means Varsity Toastmasters will not be meeting on campus.<br><br>
+          For tonight's meeting, we'ill be using Zoom. 
+          <a href='https://auckland.zoom.us/j/893139797'>
+              Here's the link!
+          </a>
+          <br>
+        </p>              
+      </div>
+  </div>
+
+</div>
