@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-16T17:02:29+12:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">VARSITY TOASTMASTERS</title><subtitle>We're a Toastmasters club at the University of Auckland! We promote public speaking and leadership skills in a friendly, fast &amp; loose environment.</subtitle><entry><title type="html">Covid-19 Update</title><link href="http://localhost:4000/archive/2020-August-Covid-19-Update" rel="alternate" type="text/html" title="Covid-19 Update" /><published>2020-08-12T00:00:00+12:00</published><updated>2020-08-12T00:00:00+12:00</updated><id>http://localhost:4000/archive/custom</id><content type="html" xml:base="http://localhost:4000/archive/2020-August-Covid-19-Update">&lt;style&gt;
+  body {
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(147, 31, 31);
+    color: white;
+  }
+  .site-header &gt; .wrapper &gt; .site-title  {
+    color: white;
+  }
+
+&lt;/style&gt;
+
+&lt;div class=&quot;content-wrapper&quot;&gt;
+
+  &lt;div class=&quot;content&quot; id=&quot;wrapper&quot;&gt;
+    &lt;div id=&quot;invis_box&quot;&gt;
+      &lt;p id=&quot;box&quot; class=&quot;centre&quot;&gt; 
+          Due to new instances of community trasmission of Covid-19, Auckland is going to be back in Self-Isolation as of
+          12pm noon on Wednesday the 12th of August (today!). &lt;br /&gt;&lt;br /&gt;
+          This means Varsity Toastmasters will not be meeting on campus.&lt;br /&gt;&lt;br /&gt;
+          For tonight's meeting, we'ill be using Zoom. 
+          &lt;a href=&quot;https://auckland.zoom.us/j/893139797&quot;&gt;
+              Here's the link!
+          &lt;/a&gt;
+          &lt;br /&gt;
+        &lt;/p&gt;              
+      &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;</content><author><name></name></author><category term="posts" /><category term="up_yours" /><summary type="html"></summary></entry></feed>

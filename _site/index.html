@@ -1,0 +1,135 @@
+
+
+
+<html>
+    <head>
+        <title>Varsity Toastmasters</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@423&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="icon" href="assets/img/keith.png" />
+    </head>
+    <body>
+        <header>
+            <div id = "mobile_nav">
+                <img onclick='show_menu()' class='menu_btn' src ='assets/img/hamburger.png'>
+                <h1>V A R S I T Y</h1>
+            </div>
+            <div id = "dropdown_menu" class = "dropdown_content">
+                <a href='/'>HOME</a>
+                <a href='about'>ABOUT</a>
+                <a href='contact'>CONTACT</a>
+                <a href='membership'>MEMBERSHIP</a>
+                <a href='resources'>RESOURCES</a>
+                <a href='voting'>VOTING</a>
+                <a href='other'>OTHER</a>
+            </div>
+            <div class = "top">
+                <img src = "assets/img/tm-logo.jpg">
+                <h1>VARSITY TOASTMASTERS</h1>
+                <h2>Est. 1999</h2>
+            </div>
+            <div id = "desktop_nav">
+                <a href='/'>Home</a>
+                <a href='about'>About</a>
+                <a href='contact'>Contact</a>
+                <a href='membership'>Membership</a>
+                <a href='resources' id = 'rescources_thing'>Resources</a>
+                <a href='other'>Other</a>
+            </div>
+        </header>
+        <div id = "side">
+            <h2>University of Auckland Toastmasters Club</h2>
+            <hr>
+            <h2>WHERE?</h2>
+            <p>Online, using Zoom.<br> <a href='https://auckland.zoom.us/j/893139797'>Here's our zoom link.</a><br> <br> Wednesdays, 6 - 8pm </p>
+            <hr>
+            <h2>Disclaimer</h2>
+            <p>
+                The information on this website is for the sole use of Toastmasters' members. It is not to be used for solicitation and distribution of non-Toastmasters material or information. All rights reserved. Toastmasters International, the Toastmasters International logo and all other Toastmasters International trademarks and copyrights are the sole property of Toastmasters International and may be used only by permission.
+            </p>
+            <hr>
+            <h2>ONLINE VOTING</h2>
+            <p>
+                At the end of each meeting, we decide who is voted off the island! <br><br>
+                This week's voting form is <a href='voting'>here!</a>
+            </p>
+        </div>
+
+        <!--layout: home-->
+
+<style>
+    #wrapper {
+        height: 50%;
+        width: 100%;
+        background-image: linear-gradient(-45deg, rgb(255, 204, 0) 25%, transparent 25%, 
+        transparent 50%, rgb(255, 204, 0) 50%, rgb(255, 204, 0) 75%, transparent 75%, #fff);
+        background-size: 200px 200px;
+    }
+    #box {
+        background-color: white;
+        width: 80%;
+        padding: 5%;
+    }
+    .centre {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;       
+    }
+    #invis_box {
+        padding-top: 20px;
+    }
+</style>
+<div class = "news_item">
+    <h2 class = "news_title">Covid-19 Update</h2>
+    <h4 class = "date">12/08/2020</h4>
+    <div class = "content" id="wrapper">
+        <div id="invis_box"><p id="box" class="centre"> 
+            Due to new instances of community trasmission of Covid-19, Auckland is going to be back in Self-Isolation as of
+            12pm noon on Wednesday the 12th of August (today!). <br>
+            <br>
+            This means Varsity Toastmasters will not be meeting on campus.<br><br>
+
+            For tonight's meeting, we'ill be using Zoom. <a href='https://auckland.zoom.us/j/893139797'>
+                Here's the link!
+            </a>            
+            <br>
+        </p>              
+
+    </div></div>
+</div>
+
+
+<div class = "news_item" style="margin-bottom: 200px;">
+    <h2 class = "news_title">Semester 2, 2020</h2>
+    <h4 class = "date">08/08/2020</h4>
+    <div class = "content">
+        <p> 
+            If you're interested in joining Varsity Toastmasters, you can join us on Wednesdays from 6-8pm.<br>
+            <del>For the rest of the year, we'll be meeting in the Humanities building, room 206-215. <br></del>
+            <br>
+            UPDATE: Who knows when we'll be back on campus! We'll keep you up-to-date on what's happening.
+
+            
+            <br>
+        </p>
+        <img src="assets/img/20S2_room_locn.png">
+        <img src="assets/img/20S2_room_locn-2.png">
+        
+    </div>
+</div>
+
+
+
+        <footer>
+            <div id = "pick_your_pipe">
+                <!-- Icons from Freepik Content (https://www.flaticon.com/) -->
+                <img src = "assets/img/fb-icon-00114a.svg" onclick="window.location.href= 'https\:\/\/www.facebook.com/varsitytoastmastersuoa/' ">
+                <img src = "assets/img/ig-icon-dark.svg" onclick="window.location.href= 'https\:\/\/www.instagram.com/varsitytoastmastersnz/' ">
+                <img src = "assets/img/yt-icon-light.svg" onclick="window.location.href=  'https\:\/\/www.youtube.com/watch?v=dQw4w9WgXcQ' ">
+            </div>
+            <p>&copy Varsity Toastmasters 2020</p>
+        </footer>       
+    </body>
+    <script src="assets/js/script.js"></script>
+</html>
