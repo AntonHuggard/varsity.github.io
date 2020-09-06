@@ -1,66 +1,12 @@
 ---
 layout: default
 ---
-<!--layout: home-->
 
-<style>
-    #wrapper {
-        height: 50%;
-        width: 100%;
-        background-image: linear-gradient(-45deg, rgb(255, 204, 0) 25%, transparent 25%, 
-        transparent 50%, rgb(255, 204, 0) 50%, rgb(255, 204, 0) 75%, transparent 75%, #fff);
-        background-size: 200px 200px;
-    }
-    #box {
-        background-color: white;
-        width: 80%;
-        padding: 5%;
-    }
-    .centre {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;       
-    }
-    #invis_box {
-        padding-top: 20px;
-    }
-</style>
-<div class = "news_item">
-    <h2 class = "news_title">Covid-19 Update</h2>
-    <h4 class = "date">12/08/2020</h4>
-    <div class = "content" id="wrapper">
-        <div id="invis_box"><p id="box" class="centre"> 
-            Due to new instances of community trasmission of Covid-19, Auckland is going to be back in Self-Isolation as of
-            12pm noon on Wednesday the 12th of August (today!). <br>
-            <br>
-            This means Varsity Toastmasters will not be meeting on campus.<br><br>
-
-            For tonight's meeting, we'ill be using Zoom. <a href='https://auckland.zoom.us/j/893139797'>
-                Here's the link!
-            </a>            
-            <br>
-        </p>              
-
-    </div></div>
+<div class='news_item'>
+    {% for post in site.posts limit:1 %}
+      <h3 class = 'news_title'>{{ post.title }}</h3>
+      <p class="blogdate">{{ post.date | date: "%-d %B %Y" }}</p>
+      <div>{{ post.content  }}</div>
+      
+    {% endfor %}
 </div>
-
-
-<div class = "news_item" style="margin-bottom: 200px;">
-    <h2 class = "news_title">Semester 2, 2020</h2>
-    <h4 class = "date">08/08/2020</h4>
-    <div class = "content">
-        <p> 
-            If you're interested in joining Varsity Toastmasters, you can join us on Wednesdays from 6-8pm.<br>
-            <del>For the rest of the year, we'll be meeting in the Humanities building, room 206-215. <br></del>
-            <br>
-            UPDATE: Who knows when we'll be back on campus! We'll keep you up-to-date on what's happening.
-
-            
-            <br>
-        </p>
-        <img src="assets/img/20S2_room_locn.png">
-        <img src="assets/img/20S2_room_locn-2.png">
-        
-    </div>
-</div>
-

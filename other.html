@@ -11,12 +11,8 @@ permalink: /other/
 
     <h3 style ="text-align: center;">Archive</h3>
     <h3 style ="text-align: center;">The Chronicles of Varsity</h3>
-    <a href='/archive/2020-07'>July 2020</a>
-    <a href='/archive/2020-05'>May 2020</a>
-    <a href='/archive/2018-07'>July 2018</a>
-    <a href='/archive/2016-08'>August 2016</a>
-    <a href='/archive/2016-07'>July 2016</a>
-    <a href='/archive/2015-04'>April 2015</a>
-    <a href='/archive/2015-03/'>March 2015</a>
+    {% for post in site.posts %}
+        <a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: "%B %Y" }}</a>
+    {% endfor %}
     
 </div>

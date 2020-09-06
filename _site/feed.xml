@@ -1,31 +1,146 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-16T17:02:29+12:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">VARSITY TOASTMASTERS</title><subtitle>We're a Toastmasters club at the University of Auckland! We promote public speaking and leadership skills in a friendly, fast &amp; loose environment.</subtitle><entry><title type="html">Covid-19 Update</title><link href="http://localhost:4000/archive/2020-August-Covid-19-Update" rel="alternate" type="text/html" title="Covid-19 Update" /><published>2020-08-12T00:00:00+12:00</published><updated>2020-08-12T00:00:00+12:00</updated><id>http://localhost:4000/archive/custom</id><content type="html" xml:base="http://localhost:4000/archive/2020-August-Covid-19-Update">&lt;style&gt;
-  body {
-    margin: 0px;
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: rgb(147, 31, 31);
-    color: white;
-  }
-  .site-header &gt; .wrapper &gt; .site-title  {
-    color: white;
-  }
-
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-06T15:15:40+12:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Level-2 Update</title><link href="http://localhost:4000/chronicles/2020-08-level-2-update" rel="alternate" type="text/html" title="Level-2 Update" /><published>2020-08-31T17:59:22+12:00</published><updated>2020-08-31T17:59:22+12:00</updated><id>http://localhost:4000/chronicles/level-2-update</id><content type="html" xml:base="http://localhost:4000/chronicles/2020-08-level-2-update">&lt;style&gt;
+    #wrapper {
+        height: 50%;
+        width: 100%;
+        background-image: linear-gradient(-45deg, rgb(255, 204, 0) 25%, transparent 25%, 
+        transparent 50%, rgb(255, 204, 0) 50%, rgb(255, 204, 0) 75%, transparent 75%, #fff);
+        background-size: 200px 200px;
+    }
+    #box {
+        background-color: white;
+        width: 80%;
+        padding: 5%;
+    }
+    .centre {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;       
+    }
+    #invis_box {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 &lt;/style&gt;
 
-&lt;div class=&quot;content-wrapper&quot;&gt;
+&lt;div class=&quot;content&quot; id=&quot;wrapper&quot;&gt;
+&lt;div id=&quot;invis_box&quot;&gt;&lt;p id=&quot;box&quot; class=&quot;centre&quot;&gt; 
+Despite Auckland moving down to level-2, Varsity Toastmasters will continue to meet on Zoom.&lt;br /&gt;&lt;br /&gt;
+The University won't let us back on campus until level-1 because we're &quot;not important enough&quot;.
+&lt;br /&gt;
+&lt;br /&gt;
+We keep the same Zoom link each week -- &lt;a href=&quot;https://auckland.zoom.us/j/893139797&quot;&gt;
+    Which is right here.
+&lt;/a&gt;            
+&lt;br /&gt;
+&lt;/p&gt;              
 
-  &lt;div class=&quot;content&quot; id=&quot;wrapper&quot;&gt;
-    &lt;div id=&quot;invis_box&quot;&gt;
-      &lt;p id=&quot;box&quot; class=&quot;centre&quot;&gt; 
-          Due to new instances of community trasmission of Covid-19, Auckland is going to be back in Self-Isolation as of
-          12pm noon on Wednesday the 12th of August (today!). &lt;br /&gt;&lt;br /&gt;
-          This means Varsity Toastmasters will not be meeting on campus.&lt;br /&gt;&lt;br /&gt;
-          For tonight's meeting, we'ill be using Zoom. 
-          &lt;a href=&quot;https://auckland.zoom.us/j/893139797&quot;&gt;
-              Here's the link!
-          &lt;/a&gt;
-          &lt;br /&gt;
-        &lt;/p&gt;              
-      &lt;/div&gt;
-  &lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">Covid-19 Update</title><link href="http://localhost:4000/chronicles/2020-08-covid-19-update" rel="alternate" type="text/html" title="Covid-19 Update" /><published>2020-08-12T17:59:22+12:00</published><updated>2020-08-12T17:59:22+12:00</updated><id>http://localhost:4000/chronicles/covid-19-update</id><content type="html" xml:base="http://localhost:4000/chronicles/2020-08-covid-19-update">&lt;style&gt;
+    #wrapper {
+        height: 50%;
+        width: 100%;
+        background-image: linear-gradient(-45deg, rgb(255, 204, 0) 25%, transparent 25%, 
+        transparent 50%, rgb(255, 204, 0) 50%, rgb(255, 204, 0) 75%, transparent 75%, #fff);
+        background-size: 200px 200px;
+    }
+    #box {
+        background-color: white;
+        width: 80%;
+        padding: 5%;
+    }
+    .centre {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;       
+    }
+    #invis_box {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+&lt;/style&gt;
 
-&lt;/div&gt;</content><author><name></name></author><category term="posts" /><category term="up_yours" /><summary type="html"></summary></entry></feed>
+&lt;div class=&quot;content&quot; id=&quot;wrapper&quot;&gt;
+&lt;div id=&quot;invis_box&quot;&gt;&lt;p id=&quot;box&quot; class=&quot;centre&quot;&gt; 
+    Due to new instances of community trasmission of Covid-19, Auckland is going to be back in Self-Isolation as of
+    12pm noon on Wednesday the 12th of August (today!). &lt;br /&gt;
+    &lt;br /&gt;
+    This means Varsity Toastmasters will not be meeting on campus.&lt;br /&gt;&lt;br /&gt;
+
+    For tonight's meeting, we'll be using Zoom. &lt;a href=&quot;https://auckland.zoom.us/j/893139797&quot;&gt;
+        Here's the link!
+    &lt;/a&gt;            
+    &lt;br /&gt;
+&lt;/p&gt;              
+
+&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">Semester 2</title><link href="http://localhost:4000/chronicles/2020-08-semester-2" rel="alternate" type="text/html" title="Semester 2" /><published>2020-08-08T17:59:22+12:00</published><updated>2020-08-08T17:59:22+12:00</updated><id>http://localhost:4000/chronicles/semester-2</id><content type="html" xml:base="http://localhost:4000/chronicles/2020-08-semester-2">&lt;div class=&quot;content&quot;&gt;
+&lt;p&gt; 
+    If you're interested in joining Varsity Toastmasters, you can join us on Wednesdays from 6-8pm.&lt;br /&gt;
+    &lt;del&gt;For the rest of the year, we'll be meeting in the Humanities building, room 206-215. &lt;br /&gt;&lt;/del&gt;
+    &lt;br /&gt;
+    UPDATE: Who knows when we'll be back on campus! We'll keep you up-to-date on what's happening.
+
+    
+    &lt;br /&gt;
+&lt;/p&gt;
+&lt;img src=&quot;../../post-imgs/20S2_room_locn.png&quot; /&gt;
+&lt;img src=&quot;../../post-imgs/20S2_room_locn-2.png&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">If you're interested in joining Varsity Toastmasters, you can join us on Wednesdays from 6-8pm. For the rest of the year, we'll be meeting in the Humanities building, room 206-215. UPDATE: Who knows when we'll be back on campus! We'll keep you up-to-date on what's happening.</summary></entry><entry><title type="html">Demo Meeting for Semester 2</title><link href="http://localhost:4000/chronicles/2020-07-demo-meeting-20s2" rel="alternate" type="text/html" title="Demo Meeting for Semester 2" /><published>2020-07-30T17:59:22+12:00</published><updated>2020-07-30T17:59:22+12:00</updated><id>http://localhost:4000/chronicles/demo-meeting-20s2</id><content type="html" xml:base="http://localhost:4000/chronicles/2020-07-demo-meeting-20s2">&lt;div class=&quot;content&quot;&gt;
+&lt;p&gt; 
+    Our demo meeting for semester 2 is &lt;strong&gt;next Wednesday&lt;/strong&gt; (5th of August)! &lt;br /&gt;&lt;br /&gt;
+
+    It's from &lt;strong&gt;6 - 8 pm&lt;/strong&gt; with a 15-minute break in the middle. During the break, there'll be 
+    &lt;strong&gt;Free Pizza!&lt;/strong&gt; Vegetarian options and other refreshments will also be available. &lt;br /&gt;&lt;br /&gt;
+    And, if you'd like to speak, you can! Let us know if you're keen and we'll give you something easy to talk about.
+    Or a hard one, if you're a masochist. &lt;br /&gt;&lt;br /&gt;
+
+    Join us in the &lt;strong&gt;East-Wing of the Clock Tower, room 119-G30!&lt;/strong&gt;
+    (here are some helpful maps)
+
+    
+    
+&lt;/p&gt;
+&lt;img src=&quot;../../post-imgs/20S2_demo_room_locn-2.png&quot; /&gt;
+&lt;img src=&quot;../../post-imgs/20S2_demo_room_locn.png&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Our demo meeting for semester 2 is next Wednesday (5th of August)!</summary></entry><entry><title type="html">Fresh Website</title><link href="http://localhost:4000/chronicles/2020-07-fresh-website" rel="alternate" type="text/html" title="Fresh Website" /><published>2020-07-21T17:59:22+12:00</published><updated>2020-07-21T17:59:22+12:00</updated><id>http://localhost:4000/chronicles/fresh-website</id><content type="html" xml:base="http://localhost:4000/chronicles/2020-07-fresh-website">&lt;p&gt;This website [fyi, not &lt;em&gt;this&lt;/em&gt; one. The old one…] will not be updated for the foreseeable future.&lt;/p&gt;
+
+&lt;p&gt;To keep up with all the news of Ol’ Varsity, keep an eye on our new website &lt;a href=&quot;http://varsitytoastmasters.club&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Adjourned&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">This website [fyi, not this one. The old one…] will not be updated for the foreseeable future.</summary></entry><entry><title type="html">Post-Coronavirus Meetings</title><link href="http://localhost:4000/chronicles/2020-07-post-coronavirus-meetings" rel="alternate" type="text/html" title="Post-Coronavirus Meetings" /><published>2020-07-21T17:59:22+12:00</published><updated>2020-07-21T17:59:22+12:00</updated><id>http://localhost:4000/chronicles/post-coronavirus</id><content type="html" xml:base="http://localhost:4000/chronicles/2020-07-post-coronavirus-meetings">&lt;div class=&quot;content&quot;&gt;
+&lt;p&gt;Hello Friends!&lt;br /&gt;&lt;br /&gt;
+Now that Covid has been stopped and the University has stopped being a big nerd, we're meeting on campus again!&lt;br /&gt;
+Zoom wasn't a hit. Turns out you can't really practice public speaking from your bedroom. One 
+slightly interesting thing that happened was that we had a guest join us from London. No idea why. &lt;br /&gt;
+Join us in the OGGB, room 260-205 from 6-8pm for some jolly good fun.&lt;br /&gt;
+&lt;/p&gt;
+&lt;img src=&quot;../../post-imgs/toastmasters_outta_lockdown.png&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Hello Friends! Now that Covid has been stopped and the University has stopped being a big nerd, we're meeting on campus again! Zoom wasn't a hit. Turns out you can't really practice public speaking from your bedroom. One slightly interesting thing that happened was that we had a guest join us from London. No idea why. Join us in the OGGB, room 260-205 from 6-8pm for some jolly good fun.</summary></entry><entry><title type="html">Game of Toast Semester 1, 2020</title><link href="http://localhost:4000/chronicles/2020-05-game-of-toast" rel="alternate" type="text/html" title="Game of Toast Semester 1, 2020" /><published>2020-05-13T17:59:22+12:00</published><updated>2020-05-13T17:59:22+12:00</updated><id>http://localhost:4000/chronicles/game-of-toast</id><content type="html" xml:base="http://localhost:4000/chronicles/2020-05-game-of-toast">&lt;p&gt;Hello Friends!&lt;/p&gt;
+
+&lt;p&gt;This Friday (the 15th), we are laying down our weapons to play some games with our rival club, Biztalk. It’s like how those soldiers played games on Chirstmas during the first World War. The university is still being a big nerd and not letting us go back to campus, so everything will be done online.&lt;/p&gt;
+
+&lt;p&gt;The zoom meeting link is still TBA, but hold onto your pants. We’ll post it on Facebook or something. If you’re keen to join, make sure to get in contact somehow.&lt;/p&gt;
+
+&lt;p&gt;Oh yeah. This is also the first post to the new website. At this stage, we don’t have a domain name and the website is still under construction but I’m working on it.&lt;/p&gt;
+
+&lt;p&gt;Wash your hands.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Hello Friends!</summary></entry><entry><title type="html">Awards Night</title><link href="http://localhost:4000/chronicles/2018-07-awards-night" rel="alternate" type="text/html" title="Awards Night" /><published>2018-07-17T17:59:22+12:00</published><updated>2018-07-17T17:59:22+12:00</updated><id>http://localhost:4000/chronicles/awards-night</id><content type="html" xml:base="http://localhost:4000/chronicles/2018-07-awards-night">&lt;div class=&quot;content&quot;&gt;
+Tomorrow night – Wednesday 18 – we have our annual awards night, in which we recognise excellent contributions to the club and find out who has secretly been a cactus all this time. Come see this historic event at 6 p.m. in 260-040C (Arts 1). Plus there will be comestibles so come get some of that in ya.
+
+&lt;img src=&quot;../../post-imgs/screenshot-2018-07-17-at-9-51-58-pm.png&quot; id=&quot;post-img&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Tomorrow night – Wednesday 18 – we have our annual awards night, in which we recognise excellent contributions to the club and find out who has secretly been a cactus all this time. Come see this historic event at 6 p.m. in 260-040C (Arts 1). Plus there will be comestibles so come get some of that in ya.</summary></entry><entry><title type="html">Tabletopic Night! Featuring BIZTALK!</title><link href="http://localhost:4000/chronicles/2016-08-tabletopic-night" rel="alternate" type="text/html" title="Tabletopic Night! Featuring BIZTALK!" /><published>2016-08-08T17:59:22+12:00</published><updated>2016-08-08T17:59:22+12:00</updated><id>http://localhost:4000/chronicles/tabletopic-night-feat-biztalk</id><content type="html" xml:base="http://localhost:4000/chronicles/2016-08-tabletopic-night">&lt;div class=&quot;content&quot;&gt;
+Good Evening my fellow members!
+The tabletopic competition is fast approaching and Varsity has decided to join forces with Biztalk to try and get you prepared for the oncoming competition. Not only is it the perfect opportunity to hone your own skills, but to observe your fellow toastmasters and those from another club.
+
+If you have any dietary requirements or questions drop us a comment on the facebook event or email us (Email can be found in the contact section).
+
+https://www.facebook.com/events/1817510091814760/
+
+I’ll see you all there!
+
+&lt;img src=&quot;../../post-imgs/13978205_10211135395327702_997127413_o.jpg&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Good Evening my fellow members! The tabletopic competition is fast approaching and Varsity has decided to join forces with Biztalk to try and get you prepared for the oncoming competition. Not only is it the perfect opportunity to hone your own skills, but to observe your fellow toastmasters and those from another club.</summary></entry><entry><title type="html">Demo Meeting</title><link href="http://localhost:4000/chronicles/2016-07-demo-meeting" rel="alternate" type="text/html" title="Demo Meeting" /><published>2016-07-21T17:59:22+12:00</published><updated>2016-07-21T17:59:22+12:00</updated><id>http://localhost:4000/chronicles/demo-meeting</id><content type="html" xml:base="http://localhost:4000/chronicles/2016-07-demo-meeting">&lt;p&gt;Ladies, Gentlemen and my fellow Toastmasters,&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just around the corner is our semi-annual demo meeting. Not only an option invitation for guests to explore and experience our club first hand but to bring to you an action packed evening filled with only the finest table topics. The speed and wit of your mind will be put to the test, so for those of you returning as members be prepared! And for those of you coming to see what we are all about don’t hesitate to take the initial plunge into the deep wondrous unknown that is Toastmasters International.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The very best and largest leadership, communication and public speaking organisation in the world bringing you 92 years of excellence.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Time: 6:00pm ~ 8:00pm&lt;br /&gt;
+Date: Wednesday 27 July&lt;br /&gt;
+Location: 206-216 [ Arts 1 Building ]&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Ladies, Gentlemen and my fellow Toastmasters,</summary></entry></feed>

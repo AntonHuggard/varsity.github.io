@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Semester 2"
+date:   2020-08-08 17:59:22 +1200
+categories: jekyll update
+permalink: /chronicles/2020-08-semester-2
+---
+<div class = 'content'>
+<p> 
+    If you're interested in joining Varsity Toastmasters, you can join us on Wednesdays from 6-8pm.<br>
+    <del>For the rest of the year, we'll be meeting in the Humanities building, room 206-215. <br></del>
+    <br>
+    UPDATE: Who knows when we'll be back on campus! We'll keep you up-to-date on what's happening.
+
+    
+    <br>
+</p>
+<img src="../../post-imgs/20S2_room_locn.png">
+<img src="../../post-imgs/20S2_room_locn-2.png">
+</div>
