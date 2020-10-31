@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "We're Back on Campus (again)!"
-date:   2020-08-31 17:59:22 +1200
+date:   2020-10-31 17:59:22 +1200
 categories: jekyll update
 permalink: /chronicles/2020-10-live-again
 ---
