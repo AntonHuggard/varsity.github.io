@@ -83,13 +83,22 @@ header > #desktop_nav { display: none; }
 footer > #pick_your_pipe {
     margin: 20px 5%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 14%;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: calc((300px - 10%) / 3);
 }
 footer > #pick_your_pipe > img {
     max-height: 100px;
+    /* width: 149px; */
+    display: block;
     margin: auto;
     cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid white;
+    /* background-color: pink; */
+
+    /* 
+        why is life so hard :(
+    */
 }
 
 footer > p {
