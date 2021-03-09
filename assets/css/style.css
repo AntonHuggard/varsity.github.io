@@ -80,13 +80,19 @@ header > #desktop_nav { display: none; }
 
 #side {display: none;}
 
-footer > #pick_your_pipe {
-    margin: 20px 5%;
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-gap: calc((300px - 10%) / 3);
+footer {
+    padding-top: 50px;
 }
-footer > #pick_your_pipe > img {
+#pick_your_pipe {
+    width: 100%;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5vh;
+    /* grid-gap: 10%; */
+    margin: auto;
+}
+#pick_your_pipe > img {
     max-height: 100px;
     /* width: 149px; */
     display: block;
