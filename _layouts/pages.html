@@ -1,5 +1,5 @@
 {% assign current_year = '2021' %}
-{% assign current_meeting_location = "On campus, in Arts 1, 206-314" %}
+{% assign current_meeting_location = "On campus, Clocktower East Wing, 119-G10" %}
 
 <html>
     <head>
@@ -42,11 +42,18 @@
             <h2>University of Auckland Toastmasters Club</h2>
             <hr>
             <h2>WHERE?</h2>
-            <p>On campus, Clocktower East Wing, 119-G10 <br> Wednesdays, 6 - 8pm </p>
+            <!-- <p>  </p> -->
+            <p>{{ current_meeting_location }}<br> Wednesdays, 6 - 8pm</p>
 			<iframe src="https://maps.auckland.ac.nz/wayfinding?type=poi&selectedLocation=1000053328" 
 			title="Map to our room"
-			height="600"></iframe>
-			<button onclick = "document.location = 'https://maps.auckland.ac.nz/wayfinding?type=poi&selectedLocation=1000053328'"> Larger Map </button>
+			id='fancy-map'></iframe>
+            <p>
+                <a href='https://maps.auckland.ac.nz/wayfinding?type=poi&selectedLocation=1000053328''>
+                    Here's a bigger map!
+                </a>
+            </p>
+            
+			<!-- <button onclick = "document.location = '"> Larger Map </button> -->
 			
             <hr>
             <h2>ONLINE VOTING</h2>
