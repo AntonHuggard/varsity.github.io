@@ -8,7 +8,7 @@ permalink: /chronicles/2021-03-demo-meeting
 
 In Semester 2 2021, Varsity will be running a series of special meetings featuring introductory presentations on the three key aspects of public speaking. These workshops will be built into our usual Toastmasters meetings, so you will get the opportunity to hear a seminar, see a great example of the content applied in a speech and then have the option to practice the skills yourself in an impromptu 2 minute Table Topic speech.
 
-Come and join us every Wednesday from 6-8 pm in the East Wing of the Clocktower, Room 119-G19 (snacks provided). 
+Come and join us every Wednesday from 6-8 pm in the East Wing of the Clocktower, Room 119-G10 (snacks provided). 
 
 
 Session 0 - Demo Meeting – July 19th
